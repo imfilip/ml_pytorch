@@ -167,6 +167,7 @@ class AdalineGD:
         """
         return np.where(self.activation(self.net_input(X))>= 0.5, 1, 0)
 
+
 if __name__ == "__main__":
 
     test = Perceptron(n_iter = 1000)
