@@ -8,7 +8,9 @@ attrs==22.2.0
 backcall==0.2.0
 beautifulsoup4==4.11.1
 bleach==5.0.1
+certifi==2022.12.7
 cffi==1.15.1
+charset-normalizer==3.0.1
 colorama==0.4.6
 comm==0.1.2
 contourpy==1.0.6
@@ -30,6 +32,7 @@ isoduration==20.11.0
 isort==5.11.4
 jedi==0.18.2
 Jinja2==3.1.2
+joblib==1.2.0
 jsonpointer==2.3
 jsonschema==4.17.3
 jupyter-events==0.6.3
@@ -76,22 +79,29 @@ pywin32==305
 pywinpty==2.0.10
 PyYAML==6.0
 pyzmq==25.0.0
+requests==2.28.2
 rfc3339-validator==0.1.4
 rfc3986-validator==0.1.1
+scikit-learn==1.2.1
+scipy==1.10.0
 Send2Trash==1.8.0
 six==1.16.0
 sniffio==1.3.0
 soupsieve==2.3.2.post1
--e git+https://github.com/imfilip/ml_pytorch.git@a5cd7dbd545d38128a49cc6757b03d3695476cb3#egg=src
+-e git+https://github.com/imfilip/ml_pytorch.git@f61d12345187568bfbd7afca7149dcb79861a3fb#egg=src
 stack-data==0.6.2
 terminado==0.17.1
+threadpoolctl==3.1.0
 tinycss2==1.2.1
 tomli==2.0.1
 tomlkit==0.11.6
+torch==1.13.1
+torchvision==0.14.1
 tornado==6.2
 traitlets==5.8.1
 typing_extensions==4.4.0
 uri-template==1.2.0
+urllib3==1.26.14
 wcwidth==0.2.5
 webcolors==1.12
 webencodings==0.5.1
